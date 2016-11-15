@@ -1,0 +1,431 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[usenames]{color}
+\usepackage{graphicx}
+\usepackage{wasysym}
+%\usepackage[misc]{ifsym}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{hyperref}
+\usepackage{palatino}
+\usepackage[top=0.75in, bottom=0.75in, left=0.75in, right=0.75in]{geometry}
+\usepackage{booktabs}
+\usepackage{fontawesome}
+\selectfont
+\raggedright
+
+\pagenumbering{gobble}
+\fontfamily{SansSerif}
+%\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+% DEFINITIONS FOR RESUME
+
+\newenvironment{changemargin}[2]{%
+	\begin{list}{}{%
+			\setlength{\topsep}{0pt}%
+			\setlength{\leftmargin}{#1}%
+			\setlength{\rightmargin}{#2}%
+			\setlength{\listparindent}{\parindent}%
+			%\setlength{\itemindent}{\parindent}%
+			\setlength{\parsep}{\parskip}%
+		}%
+		\item[]}{\end{list}
+}
+
+\newcommand{\lineover}{
+	\begin{changemargin}{-0.0in}{-0.0in}
+		\vspace*{-8pt}
+		\hrulefill \\
+		\vspace*{-2pt}
+	\end{changemargin}
+}
+
+\newcommand{\header}[1]{
+	\begin{changemargin}{-0.0in}{-0.0in}
+		\large	\scshape {#1}\\	
+		\lineover
+	\end{changemargin}
+}
+
+\newcommand{\contact}[4]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\begin{center}
+			{\Large \scshape {#1}}\\ \smallskip
+			{#2}\\ \smallskip 
+			{#3}\\ \smallskip
+			{#4}\smallskip
+		\end{center}
+	\end{changemargin}
+}
+
+\newenvironment{body} {
+	\vspace*{-16pt}
+	\begin{changemargin}{-0.0in}{-0.in}
+	}	
+	{\end{changemargin}
+}	
+
+\newcommand{\school}[4]{
+	\textbf{#1} \hfill \emph{#2\\}
+	#3\\ 
+	#4\\
+}
+\renewcommand{\labelitemii}{\tiny$\circ$}
+%\setitemize[0]{leftmargin=10pt,itemindent=10pt}
+
+%\setlength{\itemindent}{0em}
+% END RESUME DEFINITIONS
+
+\begin{document}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% Name
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+	
+	
+	\vspace{-10pt}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \textbf{Surya Kant Agarwal}\\ \indent \Letter ~ agarwalsuryakant561@gmail.com \kern 6pc \indent \phone ~: +91 7738272167\hfill Alt. \phone ~: +91 9987028620  \\
+    \faHome ~: \indent 11/34, 
+    \indent R.B.C. Road, Rishra  \indent Hooghly (W.B., INDIA) - 712248\\
+    
+    
+    
+	\header{Academic Details}
+	\vspace{-1ex}
+    \begin{tabular*}{\textwidth}{ l  l  l l  @{\extracolsep{\fill}} l }
+    \specialrule{1pt}{1em}{0em}
+    \textbf{Examination} & \textbf{University} & \textbf{Institute} & \textbf{Year} & \textbf{CPI/\%} \\
+    \specialrule{1pt}{0.05em}{0em}
+    Post Graduate Specialization:\,\, & \textit{Computer Science And Engineering} \\
+    Post Graduation & IIT Bombay & IIT Bombay & 2016 & 8.40 \\
+    UnderGraduate Specialization: & \textit{Computer Science And Technology} \\
+    Graduation & IIEST, Shibpur & IIEST, Shibpur & 2013 & 70.33\\
+    Intermediate/+2 & WBCHSE & H.M High School & 2009 & 80.75\\
+    \hline
+    \end{tabular*}
+	\smallskip
+	% Area of Interest
+	%\header{Area of Interest}
+	%\smallskip
+	%\begin{body}
+	%	\vspace{14pt}
+	%	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l l l l l l }
+	%	$\bullet$ Algorithms & $\bullet$ Data Structure \\
+	%   $\bullet$ Computer Vision &$\bullet$ Image Processing \\
+	%    \end{tabular*} 
+	% 	
+	%\end{body}
+	%
+	%\smallskip
+	%\smallskip
+	%\smallskip
+	%\smallskip
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+	%Publications
+	\vspace{-1ex}
+	\header{Awards And Achievements}
+	\vspace{-0.5ex}
+	\begin{body}
+		\vspace{14pt}
+		\begin{itemize}
+			\setlength{\itemindent}{0em}
+			\setlength{\itemsep}{0em}
+			\item \textbf{AIR-7} in GATE-2014, Computer Science And Engineering.
+			\vspace{-0.5ex}
+			\item \textbf{$1^{st}$} position in \textbf{AdBLITZ} at \textbf{INSTRUO-2012}, Annual Techno-Management Fest of BESU, Shibpur .
+			\vspace{-0.5ex}
+			\item \textbf{$2^{nd}$} position in \textbf{ROBO HIKING} at \textbf{INSTRUO-2012}, Annual Techno-Management Fest of BESU, Shibpur.	
+			\vspace{-0.5ex}
+			\item \textbf{$3^{rd}$} position in \textbf{Codeblitz} finale at \textbf{Techfest 2014-15,IIT Bombay}.
+		\end{itemize}
+		
+	\end{body}
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\vspace{-1ex}
+	\header{Major Projects And Seminars}
+    \vspace{-0.5ex}
+	\begin{body}
+		\vspace{14pt}
+		\begin{itemize}
+			\setlength{\itemindent}{0em}
+			%4
+			\item \textbf{Efficient Learning of Pre-ordering Rules for Machine Translation Systems}\hfill  \emph{[June 2015- July 2016]}\\
+			\emph{Master of Technology thesis, Adviser: Prof. Ganesh Ramakrishnan, Prof. Amitabha Sanyal} \vspace{-1ex}
+			\begin{itemize}
+				\setlength{\itemindent}{0em}
+				\item Learning reordering rules for syntactically complete phrases of sentences.
+				\vspace{-0.5ex}
+				\item Taking Least General Generalisation(LGG) of trees, making our rule glossary very compact.
+				\vspace{-0.5ex}
+				\item Extracting features for source side production, and using \textbf{learning to rank(Using Random Forests and Neural Nets)}  for ranking among target productions.
+				
+			\end{itemize}
+			\vspace{-1ex}
+			
+			\item \textbf{Translation Improvement Using Translation Memory }\hfill  \emph{[January 2015 - May 2015]}\\
+			\emph{Master of Technology Seminar, Adviser: Prof. Ganesh Ramakrishnan}
+			\vspace{-1ex}
+			\begin{itemize}
+				\setlength{\itemindent}{0em}
+				\item A semester long survey on various machine translation techniques and Translation Memory.
+				\vspace{-0.5ex}
+				\item Explored various translation techniques which combine SMT, EBMT and TM.
+			\end{itemize}
+		\end{itemize}
+		
+	\end{body}
+	%\newpage
+	% Areas of Interest
+	%\header{Areas of Interest}
+	%\smallskip
+	%\begin{body}
+	%	\vspace{14pt}
+	%	Web search and mining, information retrieval, machine learning, natural langauge processing
+	%\end{body}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\vspace{-1ex}
+	\header{Course Projects}
+    \vspace{-0.5ex}
+	\begin{body}
+		\vspace{14pt}
+		\begin{itemize}
+			\setlength{\itemindent}{0em}
+			%4
+			%		\item textbf {Sketch Beautification and Object Recognition in DrawCAD}
+			%		\\ Master Thesis Project , Adviser: Prof. Abhiram Ranade, May 2015-ongoing .
+			%		\
+			
+			
+			\item \textbf{Reading Data from Text File in Postgres SQL}\hfill \emph{[September 2014 - November 2014]} \\
+			\emph{Course Project (Implementation Techniques for Relational Database Systems), Adviser: Prof. S Sudarshan}
+			\vspace{-1ex}
+			\begin{itemize}
+				\setlength{\itemindent}{0em}
+				\item Added the functionality of reading data directly from a text file without first loading into database.
+				\vspace{-0.5ex}
+				\item Changed postgres SQL code for parsing, schema insertion and reading directly from text file.
+			\end{itemize}				    
+			\vspace{-1ex}
+			\item \textbf{Part of Speech Tagger}\hfill \emph{[July 2014 - November 2014]} \\
+			\emph{Course project(Natural Language Processing), Adviser: Prof. Pushpak Bhattacharya}
+			\vspace{-1ex}
+			\begin{itemize}
+				\setlength{\itemindent}{0em}
+				\item Implemented POS tagging on Brown Corpus using Markov Chain.
+				\vspace{-0.5ex}
+				\item Implemented POS tagging using Neural Networks with neighboring words as collocation vector. 
+				\vspace{-0.5ex}
+				\item Achieved a cross-validation accuracy of up upto 95\% on Brown Corpus.
+			\end{itemize}
+			
+			\vspace{-1ex}
+			
+			\item  \textbf{SMT USING PIVOT Language} \hfill \emph{[Jan 2015 - April 2015]}\\
+			\emph{Course project(Topics in Natural Language Processing), Adviser: Prof. Pushpak Bhattacharya}
+			\vspace{-1ex}
+			\begin{itemize}
+				\setlength{\itemindent}{0em}
+				\item Translation of Source Language to Target Language using an intermediate pivot language instead of directly translating from Source to Target Language.
+				\vspace{-0.5ex}
+				\item Triangulation on phrase tables to get source-target phrase tables.
+				\vspace{-0.5ex}
+				\item Useful for the pair of languages with no parallel corpus.
+			\end{itemize}
+			\vspace{-1ex}
+			\item \textbf{Engineered A RAFT System}\hfill \emph{[Jan 2016 - April 2016]} \\
+			\emph{Course project(Engineering A Cloud), Adviser: Prof. Sriram Srinivasan}
+			\vspace{-1ex}
+			\begin{itemize}
+				\setlength{\itemindent}{0em}
+				\item Implemented Individual Servers(multiple threads) providing RAFT services.
+				\vspace{-0.5ex}
+				\item Implemented communication between RAFT servers (includes message passing, leader election etc).
+				\vspace{-0.5ex}
+				\item Wrapped multiple(five) servers to make them act as a single system.
+				\vspace{-0.5ex}
+			\end{itemize}
+			
+			\item \textbf{Analysis of Network Simulator Trace} \hfill \emph{[ September14 - November14 ]}
+			\\
+			\emph{Course project(Software Lab), Adviser: Prof. Bhaskar Raman} \hfill  \\
+			\vspace{-1ex}
+			\begin{itemize}
+				\setlength{\itemindent}{0em}
+				\item To analyze simulated network data transfer logs using python, sed, awk and to do automated report creation using gnuplot and Latex. \\
+				\vspace{-0.5ex}
+				\item Integrated multiple software tools to automate the analysis and report generation of experiments. \\[-0.6cm]
+			\end{itemize}
+			
+		\end{itemize}
+		
+		
+		
+	\end{body}
+	
+	
+	 
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+	\vspace{-1ex}
+	\header{Work Experience}
+	\vspace{-0.5ex}
+	\begin{body}
+		\vspace{14pt}
+		
+		\setlength{\itemindent}{0em}
+		%4
+		%		\item textbf {Sketch Beautification and Object Recognition in DrawCAD}
+		%		\\ Master Thesis Project , Adviser: Prof. Abhiram Ranade, May 2015-ongoing .
+		%		\
+		
+		
+		\textbf{IBM INDIA PVT. LTD., Kolkata India} \emph{(Global Business Services)}\hfill \emph{[Jul 2013 - Jul 2014]} \\
+		\emph{\textbf{Title:- Associate System Engineer}}\\
+		\vspace{-0.5ex}
+		Responsibilities in this role included:
+		\vspace{-1ex}
+		\begin{itemize}
+			\setlength{\itemindent}{0em}
+			\item Monitoring Data flow within Legacy Systems.
+			\vspace{-1ex}
+			\item Maintaining data consistency in Customer's Financial Database. 
+		\end{itemize}
+		
+		
+		
+		
+	\end{body}
+	
+\vspace{1ex}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\header{Current Employement}
+	\vspace{-0.5ex}
+	\begin{body}
+		\vspace{14pt}
+		
+		\setlength{\itemindent}{0em}
+		%4
+		%		\item textbf {Sketch Beautification and Object Recognition in DrawCAD}
+		%		\\ Master Thesis Project , Adviser: Prof. Abhiram Ranade, May 2015-ongoing .
+		%		\
+		
+		
+		\textbf{IDFY} \emph{(HR analytics and decisioning platform)}\hfill \emph{[Jul 2016 - Ongoing]} \\
+		\emph{\textbf{Title - Intern (Data Analytics)}}\\
+		\vspace{-0.5ex}
+		Responsibilities in this role include:
+		\vspace{-1ex}
+		\begin{itemize}
+			\setlength{\itemindent}{0em}
+			\item Building and Managing HR analytics product at IDFY.
+			\vspace{-1ex}
+			\item Projects include working with  Random Forests, Survival Analysis etc.
+		\end{itemize}
+		
+	\end{body}
+	
+	\vspace{-1ex}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% Skills
+	\header{Technical Skills}
+	\begin{body}
+		\vspace{14pt}
+		\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l l l l l l }
+			\emph{Programming Languages} &  C++, C, Java, Python, Prolog, golang, Ruby \\
+			\emph{Scripting Languages} & bash, sed, awk, Python, HTML\\
+			\emph{Databases} &  MySQL, Oracle \\
+			\emph{Operating Systems} & Linux, Windows \\
+			\emph{Tools and Frameworks} & Matlab, Eclipse,\LaTeX, Oracle Apps, Moses, GIZA++, VHDL, GnuPlot, Hadoop  \\
+		\end{tabular*} 
+		
+		
+	\end{body}
+	\smallskip
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\vspace{-1ex}
+	\header{Positions of Responsibility}
+    \vspace{-2ex}
+	\begin{itemize}
+	    \setlength{\itemindent}{-1.4em}
+		\item \textbf{Teaching Assistantship, IIT Bombay (2014-2015)} 
+		\begin{itemize}
+			\setlength{\itemindent}{-1.4em}
+			\vspace{-2ex}
+		\item \textbf{Computer Programming Lab - CS101} \emph{(First Year Programming Lab)  \hfill[ Autumn '14 ]}
+		\vspace{-1.2ex}
+		\item \textbf{Computer Programming Lab - CS101}  \emph{(First Year Programming Lab) \hfill [ Spring'15 ]}
+		\vspace{-1.2ex}
+		\item \textbf{Artificial Intelligence - CS344/386} \emph{(Conducted Labs \& Tests)\hfill [ Jul'15 - Dec'16 ]} \\
+	\end{itemize}
+	    \vspace{-2.2ex}
+		\item \textbf{Student Companion, ISCP, IIT Bombay} \hfill \emph{[ Jun'15 - Jul'16 ]}\\
+		\vspace{-1.5ex}
+		\begin{itemize}
+		    \setlength{\itemindent}{-1.4em}
+			\item Mentoring the PG freshers and helping in their smooth transition into the institute.\\
+			\vspace{-1ex}
+			\item Guiding and providing counseling to new PG entrants in their academic and non-academic matters.\\
+	\end{itemize}
+		
+	\end{itemize}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% Leadership
+	\vspace{-2ex}
+	\header{Courses Taken}
+	\smallskip
+	\begin{body}
+		\vspace{14pt}
+		\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l l l l l l }
+			\emph{Algorithms \& Complexity} & \hfill \emph{Implementation Techniques for Relational Database Systems}\\
+			\emph{Probabilistic Model} & \emph{Natural Language Processing}\\
+			\emph{Computer Networks} &  \emph{Topics in Natural Language Processing} \\
+	    	\emph{Artificial Intelligence} & \emph{Foundations of Machine Learning} \\
+			\emph{Linear Optimisation} & \emph{Software Lab}   \\
+			\emph{Engineering a Cloud}   \\
+		\end{tabular*} 
+		
+		
+	\end{body}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\smallskip
+	\smallskip
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% Leadership
+	\vspace{-1.5ex}
+	\header{Extra Curricular and Hobbies}
+	\vspace{-0.5ex}
+	\begin{body}
+		\vspace{14pt}
+		\begin{itemize}
+			\setlength{\itemindent}{-1.4em}
+			\setlength{\itemsep}{-.1em}
+	        \item Gold Medalist in 100x4 men's and mixed relays in \textbf{PG Sports} at \textbf{IIT Bombay}.\\[-1cm]
+			\item Active member of \textbf{Adventure and Sports club, IIT Bombay}.\\[-1cm] 
+			\item Hobbies include Watching Movies, Playing Football and Athletics.   
+			
+			
+			
+		\end{itemize}
+	\end{body}
+	\smallskip
+	\smallskip
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	%\header{Miscellaneous}
+	%\smallskip
+	%\begin{body}
+	%	\vspace{14pt}
+	%	\begin{itemize}
+	%	\setlength{\itemindent}{0em} 
+	%	    \item $1^{st}$ prize in a programming contest organized at Compufest 2010, a technical symposium organized at YCCE Nagpur.
+	%
+	%	\end{itemize}
+	%\end{body}
+	
+\end{document}
